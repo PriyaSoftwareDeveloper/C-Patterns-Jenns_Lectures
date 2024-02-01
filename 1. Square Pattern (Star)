@@ -1,0 +1,20 @@
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * *
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+    int i,j,r;
+    setbuf(stdout, NULL);
+    printf("Enter r number for Square pattern: ");
+    scanf("%d",&r);
+    for(i=1;i<=r;i++){
+        for(j=1;j<=r;j++){
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
