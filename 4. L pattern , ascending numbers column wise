@@ -1,0 +1,24 @@
+// L pattern , ascending numbers column wise
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+1 2 3 4 5 6 
+--------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+    int i,j,r;
+    setbuf(stdout, NULL);
+    printf("Enter r number for L number pattern: ");
+    scanf("%d",&r);
+    for(i=1;i<=r;i++){
+        for(j=1;j<=i;j++){
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
