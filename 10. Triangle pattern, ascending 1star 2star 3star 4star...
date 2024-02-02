@@ -1,0 +1,26 @@
+// Triangle pattern, ascending 1 2 3 4...
+
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+----------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+    int i,j,r,space;
+    setbuf(stdout, NULL);
+    printf("Enter r number for Triangle pattern: ");
+    scanf("%d",&r);
+    for(i=1;i<=r;i++){
+    	for(space=1;space<=(r-i);space++){
+    		printf(" ");
+    	}
+    	for(j=1;j<=i;j++){
+    		printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
