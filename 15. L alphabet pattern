@@ -1,0 +1,24 @@
+// L alphabet pattern >
+
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+A B C D E F 
+---------------------------------------------------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+	int i,j,n;
+	setbuf(stdout, NULL);
+	printf("Enter a number for L alphabet pattern: ");
+	scanf("%d", &n);
+	for(i=1; i<=n; i++){
+		for(j=1; j<=i; j++){
+			printf("%c ", 64+j);
+		}
+		printf("\n");
+	}
+	return 0;
+}
