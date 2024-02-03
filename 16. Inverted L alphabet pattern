@@ -10,7 +10,7 @@ A
 int main(void){
 	int i,j,n;
 	setbuf(stdout, NULL);
-	printf("Enter a number for L alphabet pattern: ");
+	printf("Enter a number for inverted L alphabet pattern: ");
 	scanf("%d", &n);
 	for(i=n; i>=1; i--){
 		for(j=1; j<=i; j++){
