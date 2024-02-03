@@ -17,7 +17,7 @@
 int main(void){
     int i,j,r,space,rows;
     setbuf(stdout, NULL);
-    printf("Enter r number for inverted Triangle pattern: ");
+    printf("Enter r number for Diamond pattern: ");
     scanf("%d",&rows);
     for(i=1;i<=rows;i++){
       for(space=1;space<=rows-i;space++){
